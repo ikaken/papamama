@@ -402,7 +402,7 @@ Papamamap.prototype.getPopupContent = function(feature)
         content += '<td>';
         var vacancy = feature.get('Vacancy') ? feature.get('Vacancy') : feature.get('Vacancy');
         if (vacancy !== undefined && vacancy !== null) {
-            content += '<a href="http://www.city.sapporo.jp/kodomo/kosodate/l4_01.html" target="_blank">空きあり</a>';
+            content += '<a href="http://www.ikaken.com/%E3%81%BF%E3%81%A8%E4%BF%9D%E8%82%B2%E5%9C%92%E3%83%9E%E3%83%83%E3%83%97%EF%BC%88%E3%83%86%E3%82%B9%E3%83%88%E7%89%88" target="_blank">空きあり</a>';
         }
         var vacancyDate = feature.get('VacancyDate');
         if (vacancyDate !== undefined && vacancyDate !== null) {
